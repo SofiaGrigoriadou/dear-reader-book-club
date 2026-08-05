@@ -12,8 +12,8 @@ main:
   - title: "books"  #current upcoming past
     url: /books/ 
     
-  - title: "archive"
-    url: /archive/
+  - title: "archives"
+    url: /archives/
 
   - title: "resources" #Reading guides Public-domain books Interesting articles Music playlists
     url: /resources/ 
