@@ -1,0 +1,26 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+#
+# NOTE that only one of the CV options should be selected, the first is for the
+#      Markdown formatted page while the second is generated using JSON.
+
+main:
+  - title: "home" mission current read join gallery
+    url: /
+
+  - title: "books"  current upcoming past
+    url: /books/ 
+    
+  - title: "archive"
+    url: /archive/
+
+  - title: "resources" Reading guides Public-domain books Interesting articles Music playlists
+    url: /resources/ 
+    
+  - title: "about"
+    url: /about/
+
+# There were also the categories "Talks", "Teaching", "Guide".
