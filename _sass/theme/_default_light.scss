@@ -1,0 +1,48 @@
+/* ==========================================================================
+   DEFAULT THEME
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$cream                      : #fffcd9;
+$champagne                  : #f9e6ad;
+$burgundy                   : #691b1a;
+$cherry-red                 : #7a0605;
+$marron                     : #340000;
+$noir                       : #000000;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Default light theme for the site */
+:root {
+    --global-base-color                 : #{$cream};
+    --global-bg-color                   : #{$cream};
+    --global-footer-bg-color            : #{$cream};
+    --global-border-color               : #{$cherry-red};
+    --global-dark-border-color          : #{$burgundy};
+    --global-code-background-color      : #fafafa;
+    --global-code-text-color            : #{$marron};
+    --global-fig-caption-color          : mix(#fff,  #{$noir}, 25%);
+    --global-link-color                 : #{$cherry-red};
+    --global-link-color-hover           : #{$burgundy};
+    --global-link-color-visited         : #{$marron};  
+    --global-masthead-link-color        : #{$cherry-red};
+    --global-masthead-link-color-hover  : #{$burgundy};    
+    --global-text-color                 : #{$noir};
+    --global-text-color-light           : #{$marron};
+    --global-thead-color                : #{$cherry-red};
+}
