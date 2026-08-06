@@ -16,7 +16,10 @@ main:
     url: /archives/
 
   - title: "resources" #Reading guides Public-domain books Interesting articles Music playlists
-    url: /resources/ 
+    url: /resources/
+
+  - title: "letters"
+    url: https://dear-reader.letterbucket.com/
     
   - title: "about"
     url: /about/
